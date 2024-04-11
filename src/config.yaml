@@ -1,7 +1,7 @@
 site:
   name: MAPE
   site: 'https://fmeireles.com/'
-  base: '/mape'
+  base: 'mape'
   trailingSlash: false
 
   googleSiteVerificationId: false
