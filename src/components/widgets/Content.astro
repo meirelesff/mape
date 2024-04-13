@@ -78,7 +78,7 @@ const {
       <div aria-hidden="true" class="mt-10 md:mt-0 md:basis-1/2">
         {
           image && (
-            <div class="relative m-auto max-w-4xl">
+            <div class="relative m-auto max-w-4xl hidden xl:inline">
               {typeof image === 'string' ? (
                 <Fragment set:html={image} />
               ) : (
@@ -86,8 +86,8 @@ const {
                   class="mx-auto w-full rounded-lg bg-white shadow-lg"
                   width={400}
                   height={400}
-                  widths={[350, 1940]}
-                  sizes="(max-width: 1940px) 100vw, 400px"
+                  widths={[350, 1120]}
+                  sizes="(max-width: 1120px) 100vw, 400px"
                   layout="responsive"
                   {...(image as any)}
                 />
